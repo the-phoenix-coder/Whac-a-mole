@@ -1,0 +1,32 @@
+h2 {
+	width: 606px;
+	margin-inline: auto;
+	text-align: center
+}
+.score, .countDown {
+	background-color: mediumslateblue;
+	width: fit-content;
+	color: white;
+	padding: .5rem 1rem;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-inline: auto
+}
+.square {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+.mole {
+	background-image: url(../images/mole.jpg);
+	background-size: cover
+}
